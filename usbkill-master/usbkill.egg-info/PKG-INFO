@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: usbkill
+Version: 1.0rc4
+Summary: usbkill is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
+Home-page: https://github.com/hephaest0s/usbkill
+Author: Hephaestos
+Author-email: hephaestos@riseup.net
+License: GPLv3

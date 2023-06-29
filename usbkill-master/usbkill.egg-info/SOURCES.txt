@@ -1,0 +1,10 @@
+README.md
+setup.py
+/home/moole/usbkill-master/install/usbkill
+/home/moole/usbkill-master/install/usbkill.ini
+usbkill/__init__.py
+usbkill/usbkill.py
+usbkill.egg-info/PKG-INFO
+usbkill.egg-info/SOURCES.txt
+usbkill.egg-info/dependency_links.txt
+usbkill.egg-info/top_level.txt
