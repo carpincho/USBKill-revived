@@ -28,12 +28,13 @@ Some reasons to use this tool:
 ### CHANGE LOG
 (The usbkill-revived project uses the most recent version of USBKill before its abandonment. This will be a change log rather than a feature list. USBKill-Revived is updated every day or every other day. The changelog may be changed as new spontaneous bug fixes come in. For old changelogs, look at the README history.)
 
-**(Version 1.1)**
--Issue #102 on the original USBKill repo has been fixed.
+**(Version 1.0)**
+-Issue #102 and #77 on the original USBKill repo has been fixed.
 
--The previous commands used to wipe SWAP were insufficient. There are now 3 commented presets that the user can use in lieu of the poor implementation of both the original USBKill swap eraser and the previous fix in Version 1.0. The user can either choose overwriting with /dev/urandom with ``dd``, use ``shred``, or wipe the swap with a random AES-256-CTR key, then wiping with /dev/zero as an overkill preset. 
+-The previous commands used to wipe SWAP were insufficient. There are now 3 commented presets that the user can use in lieu of the poor implementation of the original USBKill swap eraser  The user can either choose overwriting with /dev/urandom with ``dd``, use ``shred``, or wipe the swap with a random AES-256-CTR key, then wiping with /dev/zero as an overkill preset. 
+- The command to wipe RAM only worked on Ubuntu and Debian. Unfortunately, it is impossible to wipe RAM without third-party-tools as a convenience as RAM is intentionally hard for users to access. Because of this, the most that can be done as a default is purging the RAM cache (aka forcing it to release everything) and making it difficult but not impossible to recover with a cold boot attack. Until I can find a way to wipe RAM with a simple command, it is up to the user to overwrite. **(TODO: Find a way to overwrite RAM without unnecessary bloat dependencies like sdmem)**
 
-**(TODO: Fix all other issues on the original repository.)**
+**(TODO: Fix all other issues on the original repository and add all merge requests to main code from the original repo.)**
 
 
 
