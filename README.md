@@ -1,5 +1,4 @@
 ![usbkill](Resources/USBKillBanner.gif)
-
 « usbkill-revived » is a repository that aims to add bug fixes and fix issues with the original USBKill project after its abandonment by its owner. It is fully FOSS, with the GNU General License.
 To run:
 
